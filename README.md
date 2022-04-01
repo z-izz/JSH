@@ -1,16 +1,19 @@
 # JSH
 A Command-Line Shell.
 
-note: `cd..` is currently broken.
-
 This Branch Is The `linux` branch.
 
 Currently, the `windows` branch is not created yet.
 
-# Differences
-`cd ..` is `cd..`
+# Limitations
+1. `|` is not recongnized yet, so `ls / | grep home` wouldn't work.
+2. no concept of scripting, use `bash` for that.
+3. no concept of `HOME` key.
+4. no command history.
 
-`cls` is a refrence to `clear`
+# Differences
+1. `cd ..` is `cd..`
+1. `cls` is a refrence to `clear`
 
 # Building
 You **can** build on windows, using visual studio.
