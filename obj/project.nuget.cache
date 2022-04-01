@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "l7FB6YQodAA/+XJ1GX2cXCb3MeTHGISU2EwS0cc8Zh1kCUzUOAQgLLmXE0YS1y80GiFlYizxa4ptu1aO1zqlhw==",
+  "success": true,
+  "projectFilePath": "/home/winksplorer/JSH/JSH.csproj",
+  "expectedPackageFiles": [
+    "/home/winksplorer/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.3/microsoft.netcore.app.runtime.linux-x64.6.0.3.nupkg.sha512",
+    "/home/winksplorer/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.3/microsoft.aspnetcore.app.runtime.linux-x64.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
