@@ -1,0 +1,24 @@
+name: LINUX makefile
+
+on:
+  push:
+    branches: [ linux ]
+  pull_request:
+    branches: [ linux ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Install dependencies
+      run: sudo apt install dotnet-sdk
+      
+    - name: Compile
+      run: make build
+      
+    - name: Run
+      run: make run
