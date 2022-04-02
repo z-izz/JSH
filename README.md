@@ -18,6 +18,10 @@ Currently, the `windows` branch is not created yet.
 # Building
 You **can** build on windows, using visual studio.
 
+But it is designed to be built on linux.
+
+this is how to build JSH on linux:
+
 1. Open A Terminal.
 2. Install `dotnet-sdk`.
 3. If `git` is not installed yet, install it.
