@@ -3,7 +3,7 @@ A Command-Line Shell.
 
 This Branch Is The `linux` branch.
 
-There is no plans of making a version of JSH for windows.
+There are no plans of making a version of JSH for windows.
 
 # Limitations
 1. `|` is not recongnized yet, so `ls / | grep home` wouldn't work.
