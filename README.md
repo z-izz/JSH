@@ -30,3 +30,8 @@ this is how to build JSH on linux:
 6. If `make` is not installed yet, install it.
 7. To compile, type `make build`
 8. To test your output, type `make run`
+
+
+Btw, you can build JSH on a mac. If you install dotnet through `brew` and change the `Makefile` to Change `target` for your platform.
+`osx-x64` for Intel Macs
+`osx-arm64` for M1 Macs
